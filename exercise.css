@@ -1,0 +1,112 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f5c0f3;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(8, 4, 4, 0.1);
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Menengahkan vertikal jika gambar lebih tinggi */
+    margin-top: 20px;
+}
+
+.left-image {
+    flex: 1; /* Memiliki 1 bagian dari flex container */
+    margin-right: 20px; /* Jarak antara gambar dan teks */
+}
+
+.right-content {
+    flex: 2; /* Memiliki 2 bagian dari flex container */
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Menengahkan vertikal jika gambar lebih tinggi */
+    margin-top: 20px;
+}
+
+.left-content {
+    flex: 2; /* Memiliki 2 bagian dari flex container */
+}
+
+.right-image {
+    flex: 1; /* Memiliki 1 bagian dari flex container */
+    margin-left: 20px; /* Jarak antara gambar dan teks */
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Menengahkan vertikal jika gambar lebih tinggi */
+    margin-top: 20px;
+}
+
+.right-content {
+    flex: 2; /* Memiliki 2 bagian dari flex container */
+}
+
+.left-image {
+    flex: 1; /* Memiliki 1 bagian dari flex container */
+    margin-left: 20px; /* Jarak antara gambar dan teks */
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Menengahkan vertikal jika gambar lebih tinggi */
+    margin-top: 20px;
+}
+
+.left-content {
+    flex: 2; /* Memiliki 2 bagian dari flex container */
+}
+
+.right-image {
+    flex: 1; /* Memiliki 1 bagian dari flex container */
+    margin-left: 20px; /* Jarak antara gambar dan teks */
+}
+
+.bottom-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+button {
+    background-color: rgb(223, 12, 184);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.button:hover {
+    background-color: #87214b; /* Warna pink tua saat dihover */
+}
+
